@@ -1,1 +1,34 @@
 /* CSS RESET */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.idkbro{
+    width: 200px;
+    height: 200px;
+    background: red;
+    animation-name: movesquare;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-radius: 30px;
+}
+
+
+/* @keyframes square{
+    0%{background-color: red;}
+    25%{background-color: black;}
+    50% {background: yellow;} 
+    80% {background: blue;}
+    100% {background-color:red;} */
+
+
+
+@keyframes movesquare{
+    0%{background: red;}
+    50% {background: yellow;}
+    100%{background: red;}
+    100%{transform:rotate(200deg)}
+}
