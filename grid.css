@@ -16,7 +16,7 @@
     grid-template-rows: repeat(9, 100px);
     gap: 10px 20px;
     width: 1000px;
-}
+} 
 
 .griditems{
     background: red;
